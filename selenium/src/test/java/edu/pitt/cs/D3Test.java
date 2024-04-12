@@ -65,7 +65,7 @@ public class D3Test {
       String attribute = element.getAttribute("href");
       vars.put("storedHref", attribute);
     }
-    assertEquals(vars.get("storedHref").toString(), "/reset");
+    assertEquals(vars.get("storedHref").toString(), "http://localhost:8080/reset");
   }
   @Test
   public void tEST2RESET() {
