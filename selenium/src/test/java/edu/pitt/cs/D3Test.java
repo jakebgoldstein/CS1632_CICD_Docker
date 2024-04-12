@@ -89,7 +89,7 @@ public class D3Test {
       String attribute = element.getAttribute("src");
       vars.put("imageSrc", attribute);
     }
-    assertEquals(vars.get("imageSrc").toString(), "http://localhost:8080/images/images/cat2.jpg");
+    assertEquals(vars.get("imageSrc").toString(), "http://localhost:8080/images/cat2.jpg");
   }
   @Test
   public void tEST4LISTING() {
