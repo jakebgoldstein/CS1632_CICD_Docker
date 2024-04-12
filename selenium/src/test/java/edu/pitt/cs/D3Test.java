@@ -53,7 +53,7 @@ public class D3Test {
   }
   @Test
   public void tEST1LINKS() {
-    driver.get("/");
+    driver.get("http://localhost:8080/");
     driver.manage().window().setSize(new Dimension(1552, 832));
     {
       WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3));
