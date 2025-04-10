@@ -38,7 +38,7 @@ jobs:
         run: selenium/manager/linux/selenium-manager --browser chrome
 
       - name: Launch Web Service
-        run: docker-compose up -d
+        run: docker compose up -d
 
       - name: Wait for Web Service to Launch
         run: chmod +x ./wait-for-server.sh
